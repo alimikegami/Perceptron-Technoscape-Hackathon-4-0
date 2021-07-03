@@ -53,11 +53,37 @@ h1 {
 
 #header .v-line {
     border-left: .1rem solid rgba(0, 0, 0, 0.55);
-    height: 2rem;
+    height: 1.5rem;
 }
 
 /* Content */
 
+<<<<<<< HEAD
+#homepageSearch .container {
+    max-width: 1100px;
+}
+#homepageSearch div.v-line {
+    border-left: .1rem solid rgba(0, 0, 0, .55);
+    height: 2rem;
+}
+
+#homepageSearch .container {
+    padding: 0 0 !important;
+}
+
+#homepageSearch input::-webkit-input-placeholder {
+    background-color: #DDE3EF;
+}
+
+#eventInfo .carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+#eventInfo .corousel-item {
+    
+}
+=======
 #homepageSearch .v-line {
     border-left: .1rem solid rgba(0, 0, 0, 1);
     height: .5rem;
@@ -90,8 +116,8 @@ h1 {
     margin-left: 30px;
 }
 
-.form-check,
-.form-select {
+.form-check-all-penginapan,
+.form-select-all-penginapan {
     margin-left: 30px;
 }
 
@@ -135,3 +161,4 @@ h1 {
 }
 
 /* End of Stylesheet Arlan */
+>>>>>>> master
