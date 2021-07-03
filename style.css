@@ -4,12 +4,37 @@
     color: white;
 }
 
+.login-button:hover, .buat-akun-btn:hover {
+    color: lightgrey;
+}
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    background-color: lightgray;
+svg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top: -195px;;
+    left:0;
+    z-index:-99;
+}
+
+.login-form {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event-form {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
