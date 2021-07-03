@@ -34,3 +34,14 @@ body {
     border-left: .1rem solid rgba(0, 0, 0, 1);
     height: .5rem;
 }
+/* Stylesheet Arlan */
+#site-details .h4 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+#site-details .h5 {
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+/* End of Stylesheet Arlan */
