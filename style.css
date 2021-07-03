@@ -7,3 +7,30 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    background-color: lightgray;
+}
+
+/* Header */
+
+#header .navbar-brand {
+    padding: 0rem !important;
+}
+
+#header .navbar-nav .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+
+#header .v-line {
+    border-left: .1rem solid rgba(0, 0, 0, 0.55);
+    height: 2rem;
+}
+
+/* Content */
+
+#homepageSearch .v-line {
+    border-left: .1rem solid rgba(0, 0, 0, 1);
+    height: .5rem;
+}
