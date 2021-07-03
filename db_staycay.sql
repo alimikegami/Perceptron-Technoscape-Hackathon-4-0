@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2021 at 08:01 AM
+-- Generation Time: Jul 03, 2021 at 09:00 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.2
 
@@ -90,7 +90,9 @@ CREATE TABLE `event` (
   `accommodation_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `event_title` char(75) NOT NULL,
-  `event_desc` text NOT NULL
+  `event_desc` text NOT NULL,
+  `begin` date NOT NULL,
+  `end` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
