@@ -69,7 +69,7 @@
                     </div>
                     <div class="row ml-3">
                         <div class="col">
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="5" id="flexCheckDefault" name="bintangLima">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     <ion-icon name="star"></ion-icon>
@@ -79,7 +79,7 @@
                                     <ion-icon name="star"></ion-icon>
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="4" id="flexCheckDefault" name="bintangEmpat">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     <ion-icon name="star"></ion-icon>
@@ -88,7 +88,7 @@
                                     <ion-icon name="star"></ion-icon>
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="3" id="flexCheckDefault" name="bintangTiga">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     <ion-icon name="star"></ion-icon>
@@ -96,14 +96,14 @@
                                     <ion-icon name="star"></ion-icon>
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="2" id="flexCheckDefault" name="bintangDua">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     <ion-icon name="star"></ion-icon>
                                     <ion-icon name="star"></ion-icon>
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault" name="bintangSatu">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     <ion-icon name="star"></ion-icon>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-9">
-                            <select class="form-select" aria-label="Default select example">
+                            <select class="form-select-all-penginapan" aria-label="Default select example">
                                 <option selected></option>
                                 <option value="aceh">Aceh</option>
                                 <option value="bali">Bali</option>
@@ -130,31 +130,31 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <div class="form-check mt-3">
+                            <div class="form-check-all-penginapan mt-3">
                                 <input class="form-check-input" type="checkbox" value="badung" id="flexCheckDefault" name="areaBadung">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Badung
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="kuta" id="flexCheckDefault" name="areaKuta">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Kuta
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Gianyar
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Ubud
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Denpasar
@@ -167,19 +167,19 @@
                     <div class="row">
                         <div class="col">
                             <p>Tipe penginapan</p>
-                            <div class="form-check mt-3">
+                            <div class="form-check-all-penginapan mt-3">
                                 <input class="form-check-input" type="checkbox" value="hotel" id="flexCheckDefault" name="hotel">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Hotel
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="villa" id="flexCheckDefault" name="villa">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Villa
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check-all-penginapan">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="form-check-label" for="flexCheckDefault">
                                     Kos
