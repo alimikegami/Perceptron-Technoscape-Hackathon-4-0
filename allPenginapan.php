@@ -350,12 +350,12 @@
                 <?php for ($i = 0; $i < 10; $i++) : ?>
                     <div class="row mb-3">
                         <div class="col-4">
-                            <img src="img/hotel1.jpg" alt="" srcset="" width="300">
+                            <img src="img/glamping.jpg" alt="" srcset="" width="300">
                         </div>
                         <div class="col-5">
                             <div class="row">
                                 <div class="col">
-                                    <p style="font-size: large;" class="fw-bold">The Alea Hotel Seminyak</p>
+                                    <p style="font-size: large;" class="fw-bold">Glamping Malang Asri</p>
                                 </div>
                                 <div class="col">
                                     <ion-icon name="star"></ion-icon>
@@ -366,7 +366,7 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <p style="font-size: small;">Jln Cendrawasih no. 78 petitenget, Seminyak, Kuta, Bali, 80361</p>
+                                    <p style="font-size: small;">Jl. Raya Tawangargo No.1, Sisir, Kec. Batu, Kota Batu, Jawa Timur 65314</p>
                                 </div>
                             </div>
                             <div class="row">
