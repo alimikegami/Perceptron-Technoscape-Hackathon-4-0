@@ -157,7 +157,8 @@ h1 {
     height: 2rem;
 }
 
-#homepageSearch .btn {
+#homepageSearch .btn,
+#penginapanSearch .btn {
     border-radius: 2rem;
     background-color: #233049;
     color: #9CADD0;

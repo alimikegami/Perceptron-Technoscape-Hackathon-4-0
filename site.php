@@ -275,5 +275,4 @@ require_once "functions.php";
             });
         }
     </script>
-
     <?php include 'template/footer.php'; ?>

@@ -72,6 +72,6 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-<script src="script.js?<?= filemtime('jquery.css'); ?>"></script>
+<script src="script.js?<?= filemtime('script.js'); ?>"></script>
 
 </html>
