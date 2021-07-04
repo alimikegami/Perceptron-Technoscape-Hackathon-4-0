@@ -1,3 +1,9 @@
+.beranda-btn {
+    background-color: #233049;
+    border-radius: 20px;
+    color: white;
+}
+
 .login-button,
 .buat-akun-btn {
     width: 100%;
@@ -6,7 +12,7 @@
     color: white;
 }
 
-.login-button:hover,
+.beranda-btn:hover, .login-button:hover,
 .buat-akun-btn:hover {
     color: lightgrey;
 }
@@ -37,12 +43,22 @@
     border-radius: 15px;
 }
 
-.book-input-form {
+.payment-box, .summary-box, .book-input-form {
     border: 1px solid #d3d3d3;
     border-radius: 10px;
 }
 
-.booking-form {
+.img-payment {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.address-txt {
+    color: gray;
+}
+
+
+.payment-confirmation-box, .booking-form {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -296,6 +312,15 @@ h1 {
 #site-details .h5 {
     font-family: 'Montserrat';
     font-size: 12px;
+}
+
+#footer-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#footer-links a:hover {
+    color: yellow;
 }
 
 /* End of Stylesheet Arlan */
