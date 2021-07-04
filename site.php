@@ -81,7 +81,7 @@ require_once "functions.php";
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col">
-                                        <img src="img/hotel1.jpg" class="img-fluid" alt="...">
+                                        <img src="img/glamping.jpg" class="img-fluid" alt="...">
                                     </div>
                                 </div>
                                 <br>
