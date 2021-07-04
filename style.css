@@ -1,4 +1,6 @@
-.selengkapnya, .back-btn, .beranda-btn {
+.selengkapnya,
+.back-btn,
+.beranda-btn {
     background-color: #233049;
     border-radius: 20px;
     color: white;
@@ -12,7 +14,10 @@
     color: white;
 }
 
-.selengkapnya:hover, .back-btn:hover, .beranda-btn:hover, .login-button:hover,
+.selengkapnya:hover,
+.back-btn:hover,
+.beranda-btn:hover,
+.login-button:hover,
 .buat-akun-btn:hover {
     color: lightgrey;
 }
@@ -97,7 +102,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.event-box, .event-form {
+.event-box,
+.event-form {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -150,7 +156,9 @@ h1 {
     border-left: .1rem solid rgba(0, 0, 0, .55);
     height: 2rem;
 }
-#homepageSearch .btn {
+
+#homepageSearch .btn,
+#penginapanSearch .btn {
     border-radius: 2rem;
     background-color: #233049;
     color: #9CADD0;
@@ -243,7 +251,14 @@ h1 {
 
 #homepage-logo {
     background-color: #233049;
+}
 
+#ulasModal ion-icon {
+    font-size: 40px;
+}
+
+.bintang-kuning {
+    color: #D1EB34;
 }
 
 .filter-pencarian {
@@ -333,6 +348,10 @@ h1 {
 
 #footer-links a:hover {
     color: yellow;
+}
+
+.text-mtsr {
+    font-family: 'Montserrat';
 }
 
 /* End of Stylesheet Arlan */

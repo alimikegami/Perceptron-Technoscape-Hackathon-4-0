@@ -147,7 +147,7 @@
                                 <input type="text" placeholder="1 room, 2guests" style="display: inline; padding-left: .5rem; border: 0; background-color: #DDE3EF; height: 1.34rem;" id="guest-form">
                             </div>
                         </div>
-                        <input type="button" value="Cari" class="py-2 px-4" style="border-radius: 2rem; background-color: #233049; color: #9CADD0; font-size: 1.2rem;">
+                        <a href="allPenginapan.php" class="btn py-2 px-5">Cari</a>
                     </form>
                 </div>
             </section>
@@ -371,13 +371,13 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <p>Check in/out cepat banget. Masih sepi banget, kolam agak kotor tapi fine. Yang paling bikin senang, dekat sama tempat-tempat gaul seminyak.</p>
+                                    <p>Check in/out cepat banget. Masih sepi banget, kolam agak kotor tapi fine. Yang paling bikin senang, dekat tempat-tempat gaul seminyak.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3 align-self-center text-center">
                             <p style="color: #869BC6; font-size: 30px;">IDR 300.000</p>
-                            <a class="btn btn-primary" href="#" role="button" style="background-color: #233049; color: #9CADD0;">Book now</a>
+                            <a class="btn btn-primary" href="site.php" role="button" style="background-color: #233049; color: #9CADD0;">Book now</a>
                         </div>
                         <hr class="mt-3">
                     </div>
