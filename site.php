@@ -101,7 +101,7 @@ require_once "functions.php";
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="mb-3">
+                                    <div class="mb-3">`
                                         <label for="ulasan_deskripsi" class="form-label">Ulasan Kamu</label>
                                         <input type="text" class="form-control align-text-top" style="height: 250px;" id="ulasan_deskripsi" name="review">
                                     </div>
