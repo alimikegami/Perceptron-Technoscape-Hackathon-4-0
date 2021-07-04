@@ -21,9 +21,9 @@
             </a>
             <div class="navbar-nav d-flex flex-row align-items-end">
                 <a href="#" class="nav-link">Events</a>
-                <div class="v-line"></div>
+                <div></div>
                 <a href="#" class="nav-link">Masuk</a>
-                <div class="v-line"></div>
+                <div></div>
                 <a href="#" class="nav-link">Daftar</a>
             </div>
         </div>
