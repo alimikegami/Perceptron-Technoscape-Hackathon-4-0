@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="header" class="navbar navbar-light bg-white">
+    <nav id="header" class="navbar navbar-light">
         <div class="container d-flex align-items-center">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" width="161.1134" height="60">
