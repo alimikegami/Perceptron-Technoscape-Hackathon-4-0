@@ -36,7 +36,7 @@ require_once "functions.php";
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/hotel1.jpg" class="d-block w-100 car-image" alt="...">
+                            <img src="img/glamping.jpg" class="d-block w-100 car-image" alt="...">
                         </div>
                         <!-- <div class="carousel-item">
                         <img src="..." class="d-block w-100" alt="...">
@@ -56,6 +56,8 @@ require_once "functions.php";
                 </div>
                 <h1 class="mt-4">Glamping Malang Asri</h1>
                 <p>Jl. Raya Tawangargo No.1, Sisir, Kec. Batu, Kota Batu, Jawa Timur 65314</p>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
@@ -123,7 +125,7 @@ require_once "functions.php";
                 <div class="mb-3">
                     <h3>Deskripsi</h3>
                 </div>
-                <p><?= $record[0]["accommodation_desc"] ?></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel mattis massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lorem arcu, bibendum ut euismod quis, malesuada eget nisi. Sed et ante nisl. Nunc id justo eu est malesuada egestas sed vel ex. Aenean eget arcu mauris. Donec ornare magna tortor, in rhoncus mauris elementum id.</p>
             </div>
         </div>
         <div class="row">
@@ -131,15 +133,40 @@ require_once "functions.php";
                 <hr>
                 <h3>Event</h3>
                 <div class="col mt-3">
-                <?php for ($i = 0; $i < 10; $i++) : ?>
                     <div class="row">
                         <div class="col-4">
-                            <img src="img/hotel1.jpg" alt="" srcset="" width="300">
+                            <img src="img/bbq.jpg" alt="" srcset="" width="300">
                         </div>
                         <div class="col-5 ms-4">
                             <div class="row">
                                 <div class="col">
-                                    <p style="font-size: large;" class="fw-bold">The Alea Hotel Seminyak</p>
+                                    <p style="font-size: large;" class="fw-bold">New Year's Eve BBQ Party!</p>
+                                    <p>Mulai: 31-Desember-2021</p>
+                                    <p>Hingga: 1-Januari 2022</p>
+                                </div>
+
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col">
+                                    <p>Check in/out cepat banget. Masih sepi banget, kolam agak kotor tapi fine. Yang paling bikin senang, dekat sama tempat-tempat gaul seminyak.</p>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="col ">
+                            <a class="btn selengkapnya" href="event_details.php" role="button">Lihat Selengkapnya</a>
+                        </div>
+                        <hr class="mt-3">
+                    </div>
+                </div>
+                <div class="col mt-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/firecamp.jpg" alt="" srcset="" width="300">
+                        </div>
+                        <div class="col-5 ms-4">
+                            <div class="row">
+                                <div class="col">
+                                    <p style="font-size: large;" class="fw-bold">Campfire Night</p>
                                     <p>Mulai: 22-Januari-2021</p>
                                     <p>Hingga: 25-Januari 2021</p>
                                 </div>
@@ -152,13 +179,11 @@ require_once "functions.php";
                             </div> -->
                         </div>
                         <div class="col ">
-                            <a class="btn btn-primary" href="#" role="button" style="background-color: #233049; color: #9CADD0;">Lihat Selengkapnya</a>
+                            <a class="btn selengkapnya" href="event_details.php" role="button">Lihat Selengkapnya</a>
                         </div>
                         <hr class="mt-3">
                     </div>
-                <?php endfor; ?>
-            </div>
-                
+                </div>
 
             </div>
         </div>
