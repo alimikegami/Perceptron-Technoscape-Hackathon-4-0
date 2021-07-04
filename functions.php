@@ -39,37 +39,42 @@ function check_email($email) {
 
 function register_user($record) {
     global $conn;
-    $email = $record["email"];
-	$pwd = mysqli_real_escape_string($conn, $record["password_akun_login"]);
-	$pwd_konf = mysqli_real_escape_string($conn, $record["password_akun_konfirmasi"]);
+    $email = $record["email-register"];
+	$pwd = mysqli_real_escape_string($conn, $record["password-register"]);
+	$pwd_konf = mysqli_real_escape_string($conn, $record["konfirmasi-password"]);
 	if ($pwd !== $pwd_konf) {
 		return 1;
 	} elseif ((check_email($email)) > 0) {
-		return 3;
+		return 2;
 	} else {
-		$nama = $record["nama"];
-        $nomor_hp = $record["nomor_hp"];
+		$nama = $record["name-register"];
+        $nomor_hp = $record["phone-number-register"];
 		$hashed_pwd = password_hash($pwd, PASSWORD_DEFAULT);
 		$query_akun = "INSERT INTO user_account VALUES('', '$nama', '$email', '$nomor_hp', '$hashed_pwd');";
 		if (execute_query($query_akun)) {
-			return 4;
+			return 3;
 		}
+        return 4;
 	}
 }
 
 function login($email, $password)
 {
 	global $conn;
-	$uname = stripslashes($email);
 	$pwd = mysqli_real_escape_string($conn, $password);
-	$query = "SELECT email, user_password FROM user_account WHERE email = '$email';";
+	$query = "SELECT user_id, email, user_password FROM user_account WHERE email = '$email';";
 	$res = mysqli_query($conn, $query);
 	if (mysqli_num_rows($res) === 1) {
 		$account = mysqli_fetch_assoc($res);
-		if (password_verify($pwd, $account['passwouser_passwordrd_user'])) {
-			
+		if (password_verify($pwd, $account['user_password'])) {
+            $_SESSION["login_pelanggan"] = true;
+			$_SESSION["id_akun"] = $account['user_id'];
+			header("Location: index.php");
+			exit;
 		}
+        return 1;
 	}
+    return 1;
 }
 
 function review($star, $review, $user, $accommodation) {
