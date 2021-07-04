@@ -28,7 +28,7 @@ require_once "functions.php";
     </svg>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9 mt-5 event-form" >
+            <div class="col-md-9 mt-5 event-form pb-4" >
                 <h1 class="pt-3 mb-5" align="center">Membuat Event Baru</h1>
                 <form class="px-3">
                     <div class="mb-3">
@@ -72,7 +72,13 @@ require_once "functions.php";
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="mb-5">
+                            <label for="exampleInputEmail1" class="form-label">Deskripsi</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn create-event">Submit</button>
+                    </div>
                 </form>
             </div>
             
