@@ -282,4 +282,13 @@ h1 {
     font-size: 12px;
 }
 
+#footer-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#footer-links a:hover {
+    color: yellow;
+}
+
 /* End of Stylesheet Arlan */
