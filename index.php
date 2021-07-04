@@ -143,7 +143,7 @@
                         <input type="text" placeholder="1 room, 2 guests" style="display: inline; padding-left: .5rem; border: 0; background-color: #DDE3EF; height: 1.34rem;" id="guest-form">
                     </div>
                 </div>
-                <input type="button" value="Cari" class="py-2 px-4" style="border-radius: 2rem; background-color: #233049; color: #9CADD0; font-size: 1.2rem;">
+                <a href="allPenginapan.php" class="btn py-2 px-5">Cari</a>
             </form>
         </div>
     </div>
