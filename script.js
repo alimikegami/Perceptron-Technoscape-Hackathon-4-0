@@ -32,15 +32,31 @@ $(document).ready(function(){
         return prefix == undefined ? rupiah : rupiah ? "Rp. " + rupiah : "";
       }
 
-    //   ambil filter area
-    //   $("#area").change(function() {
-    //     var provinsi = $(this).children("option:selected").val();
-    //     $(".scroll").append(`<div class="form-check all-penginapan">
-    //                         <input class="form-check-input" type="checkbox" value="${provinsi}" id="flexCheckDefault" name="areaBadung">
-    //                         <label class="form-check-label" for="flexCheckDefault">
-    //                         ${provinsi}
-    //                         </label>
-    //                         </div>`)
-    //   });
+      $('#guest-form').on('click', function() {
+          
+          $('#exampleModal').modal('show');
+            $('body').css('padding-right', '0px');
+            $('body').css('overflow', 'auto');
+        })
 
+        $('#tujuan').on('click', function() {
+            $('.dropdown-menu').addClass('show')
+            $('.dropdown-menu').on('click mouseenter', function() {
+                $('.dropdown-menu').addClass('show')
+            })
+        })
+
+
+        $('#tujuan').on('focusout', function () {
+            $('.dropdown-menu').removeClass('show')
+        })
+
+        $('#save').on('click', function() {
+            $('#exampleModal').modal('hide');
+            console.log($('#room').val());
+            console.log($('#guest').val());
+            $('#guest-form').attr('placeholder', $('#room').val() + ' room ' + $('#guest').val() + ' guests');
+         })
+
+   
 });

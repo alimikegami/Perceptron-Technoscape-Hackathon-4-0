@@ -67,7 +67,7 @@ if (isset($_POST["submit"])) {
                         <div class="me-3" style="border-radius: .3rem; background-color: #DDE3EF;">
                             <div class="d-flex flex-column p-1">
                                 <p style="padding-left: .5rem; margin-bottom: 0; font-size: .8rem;">Guests</p>
-                                <input type="text" placeholder="1 room, 2guests" style="display: inline; padding-left: .5rem; border: 0; background-color: #DDE3EF; height: 1.34rem;">
+                                <input type="text" placeholder="1 room, 2guests" style="display: inline; padding-left: .5rem; border: 0; background-color: #DDE3EF; height: 1.34rem;" id="guest-form">
                             </div>
                         </div>
                         <input type="button" value="Cari" class="py-2 px-4" style="border-radius: 2rem; background-color: #233049; color: #9CADD0; font-size: 1.2rem;">
