@@ -84,11 +84,7 @@
 }
 
 .svg-index {
-    z-index: -99;
     position: absolute;
-}
-
-#section-gelombang {
     z-index: -99;
 }
 
@@ -135,10 +131,12 @@ h1 {
 
 /* Content */
 
+#homepageSearch {
+}
+
 #homepageSearch .container {
     border-radius: 1rem;
     padding: 3rem;
-    z-index: 99;
 }
 
 #penginapanSearch .container {
@@ -226,7 +224,7 @@ h1 {
 
 #penginapanSearch,
 #homepageSearch {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 #homepage-logo {
