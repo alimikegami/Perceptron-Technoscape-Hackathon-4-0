@@ -215,6 +215,10 @@ h1 {
     width: .8rem;
 }
 
+.tampilPenginapan ion-icon {
+    color: #D1EB34;
+}
+
 #Reviews h3 {
     margin-bottom: 3rem !important;
 }
@@ -223,9 +227,12 @@ h1 {
     font-weight: 300;
 }
 
-#penginapanSearch,
 #homepageSearch {
     padding-top: 0px;
+}
+
+#penginapanSearch {
+    padding-top: 100px;
 }
 
 #homepage-logo {

@@ -51,6 +51,11 @@ $(document).ready(function(){
             $('.dropdown-menu').removeClass('show')
         })
 
+        // $('#dropSatu').on('click', function() {
+        //     var input =  $(this).children('input').attr('placeholder');
+        //     $('#tujuan').attr('placeholder', input);
+        // })
+
         $('#save').on('click', function() {
             $('#exampleModal').modal('hide');
             console.log($('#room').val());
