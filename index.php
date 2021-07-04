@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include 'header.php' ?>
+<?php include 'template/header.php' ?>
 
 <!-- Content -->
 <section id="homepageSearch" class="my-5">
