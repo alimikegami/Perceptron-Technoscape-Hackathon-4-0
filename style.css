@@ -24,6 +24,7 @@
     left: 0;
     z-index: -99;
 }
+
 .car-image {
     border-radius: 15px;
 }
@@ -101,7 +102,13 @@ h1 {
     padding: 3rem;
 }
 
-#homepageSearch .v-line {
+#penginapanSearch .container {
+    border-radius: 1rem;
+    padding: 0;
+}
+
+#homepageSearch .v-line,
+#penginapanSearch .v-line {
     border-left: .1rem solid rgba(0, 0, 0, .55);
     height: 2rem;
 }
