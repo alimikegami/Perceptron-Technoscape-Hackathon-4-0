@@ -150,6 +150,12 @@ h1 {
     border-left: .1rem solid rgba(0, 0, 0, .55);
     height: 2rem;
 }
+#homepageSearch .btn {
+    border-radius: 2rem;
+    background-color: #233049;
+    color: #9CADD0;
+    font-size: 1.2rem;
+}
 
 #eventInfo .carousel-img {
     display: flex;
