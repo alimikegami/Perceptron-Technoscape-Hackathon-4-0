@@ -63,5 +63,44 @@ $(document).ready(function(){
             $('#guest-form').attr('placeholder', $('#room').val() + ' room ' + $('#guest').val() + ' guests');
          })
 
+
+         $('#bintangSatu').on('click', function() {
+            $('#testBintang').removeClass('bintang-kuning');
+            $('#testBintang').children().removeClass('bintang-kuning');
+             $(this).addClass('bintang-kuning');
+             $('#review').html('Kecewa');
+         })
+         $('#bintangDua').on('click', function() {
+            $('#testBintang').removeClass('bintang-kuning');
+            $('#testBintang').children().removeClass('bintang-kuning');
+             $('#bintangSatu').addClass('bintang-kuning');
+             $(this).addClass('bintang-kuning');
+             $('#review').html('Kurang');
+         })
+         $('#bintangTiga').on('click', function() {
+            $('#testBintang').removeClass('bintang-kuning');
+            $('#testBintang').children().removeClass('bintang-kuning');
+            $('#bintangSatu').addClass('bintang-kuning');
+            $('#bintangDua').addClass('bintang-kuning');
+             $(this).addClass('bintang-kuning');
+             $('#review').html('Lumayan');
+         })
+         $('#bintangEmpat').on('click', function() {
+            $('#testBintang').removeClass('bintang-kuning');
+            $('#testBintang').children().removeClass('bintang-kuning');
+            $('#bintangSatu').addClass('bintang-kuning');
+            $('#bintangDua').addClass('bintang-kuning');
+            $('#bintangTiga').addClass('bintang-kuning');
+             $(this).addClass('bintang-kuning');
+             $('#review').html('Suka');
+         })
+         $('#bintangLima').on('click', function() {
+            $('#testBintang').removeClass('bintang-kuning');
+            $('#testBintang').children().addClass('bintang-kuning');
+            $('#review').html('Puas Sekali');
+         })
+
+
+
    
 });

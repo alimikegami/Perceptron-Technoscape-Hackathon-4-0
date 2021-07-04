@@ -1,10 +1,11 @@
-<?php 
+<?php
 require_once "functions.php";
 
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@ require_once "functions.php";
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7c6955c5b0.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- Header -->
     <?php include 'template/header.php' ?>
@@ -62,9 +64,14 @@ require_once "functions.php";
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
 
-                <!-- <button type="button" class="btn login-button" data-toggle="modal" data-target="#modalUlasan">Launch demo modal</button> -->
-                <!-- <div class="modal fade" id="modalUlasan" tabindex="-1" aria-labelledby="labelModalUlasan" aria-hidden="false"> -->
-                <!-- <div class="modal-dialog modal-dialog-centered">
+                <div class="row mt-4">
+                    <div class="col-3">
+                        <button type="button" class="btn login-button" data-bs-toggle="modal" data-bs-target="#ulasModal">Ulas</button>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="ulasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel">Ulas: Glamping Malang Asri</h5>
@@ -78,16 +85,19 @@ require_once "functions.php";
                                     </div>
                                 </div>
                                 <br>
-                                <form action="">
+
                                 <div class="row">
+                                    <div class="col text-center bintang-kuning" id="testBintang">
+                                        <ion-icon name="star" id="bintangSatu"></ion-icon>
+                                        <ion-icon name="star" id="bintangDua"></ion-icon>
+                                        <ion-icon name="star" id="bintangTiga"></ion-icon>
+                                        <ion-icon name="star" id="bintangEmpat"></ion-icon>
+                                        <ion-icon name="star" id="bintangLima"></ion-icon>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
                                     <div class="col text-center">
-                                        <ion-icon name="star"></ion-icon> 
-                                        <ion-icon name="star"></ion-icon> 
-                                        <ion-icon name="star"></ion-icon> 
-                                        <ion-icon name="star"></ion-icon> 
-                                        <ion-icon name="star"></ion-icon> 
-
-
+                                        <p id="review">Puas Sekali</p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -96,20 +106,19 @@ require_once "functions.php";
                                         <input type="text" class="form-control align-text-top" style="height: 250px;" id="ulasan_deskripsi" name="review">
                                     </div>
                                 </div>
-                                </form>
-                               
+
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" id="">Tambah Ulasan</button>
+                                <button type="button" class="btn btn-primary" id="" style="background-color: #233049;" data-bs-dismiss="modal">Tambah Ulasan</button>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
             </div>
             <div class="col book-input-form">
                 <h2 class="mt-3">Rp200.000,00/Malam</h2>
-                <form action="">                
+                <form action="">
                     <div class="row mt-3">
                         <div class="col-md-6">
                             <label for="exampleInputEmail1" class="form-label">Check In</label>
@@ -234,35 +243,37 @@ require_once "functions.php";
         </div>
     </div>
     <script>
-    function checkAvailability(user_id, accommodation_id, check_in, check_out, guests) {
-        $.ajax({
-            url:"checkAvailability.php",    //the page containing php script
-            type: "post",    //request type,
-            dataType: 'json',
-            data: {userid: user_id, accid: accommodation_id, in: check_in, out: check_out, guest_amount: guests},
-            success:function(result){
-                $('#price').removeAttr('hidden');
-                $("#check-availability").attr("hidden",true);
-                $('#book').removeAttr('hidden');
-                $("#left").text("1 Malam x Rp20.000,00");
-                $("#right").text("Rp20.000,00");
-                $('#disinf').removeAttr('hidden');
-                $("#left-disinf").text("Sterilisasi");
-                $("#right-disinf").text("Rp200.000,00");
-                $('#service').removeAttr('hidden');
-                $("#left-service").text("Service");
-                $("#right-service").text("Rp200.000,00");
-                $('#horizontal-line').removeAttr('hidden');
-                $('#total').removeAttr('hidden');
-                $("#left-total").text("Total");
-                $("#right-total").text("Rp200.000,00");
-            }
-        });
-    }
+        function checkAvailability(user_id, accommodation_id, check_in, check_out, guests) {
+            $.ajax({
+                url: "checkAvailability.php", //the page containing php script
+                type: "post", //request type,
+                dataType: 'json',
+                data: {
+                    userid: user_id,
+                    accid: accommodation_id,
+                    in: check_in,
+                    out: check_out,
+                    guest_amount: guests
+                },
+                success: function(result) {
+                    $('#price').removeAttr('hidden');
+                    $("#check-availability").attr("hidden", true);
+                    $('#book').removeAttr('hidden');
+                    $("#left").text("1 Malam x Rp20.000,00");
+                    $("#right").text("Rp20.000,00");
+                    $('#disinf').removeAttr('hidden');
+                    $("#left-disinf").text("Sterilisasi");
+                    $("#right-disinf").text("Rp200.000,00");
+                    $('#service').removeAttr('hidden');
+                    $("#left-service").text("Service");
+                    $("#right-service").text("Rp200.000,00");
+                    $('#horizontal-line').removeAttr('hidden');
+                    $('#total').removeAttr('hidden');
+                    $("#left-total").text("Total");
+                    $("#right-total").text("Rp200.000,00");
+                }
+            });
+        }
     </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-</html>
+
+    <?php include 'template/footer.php'; ?>
