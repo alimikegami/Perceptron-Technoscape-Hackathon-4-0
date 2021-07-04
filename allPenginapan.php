@@ -36,7 +36,93 @@ if (isset($_POST["submit"])) {
                                 <ion-icon name="search-outline" size="small" class="mx-2"></ion-icon>
                             </div>
                             <div class="my-1 me-1">
-                                <input type="text" name="" id="" placeholder="Nama lokasi/hotel tujuan" style="display: inline; padding-left: .5rem; border: 0; background-color: #DDE3EF; width: 13rem; height: 2.51rem;">
+                                <input type="text" name="" placeholder="Nama lokasi/hotel tujuan" style="display: inline; padding-left: .5rem; border: 0; background-color: #DDE3EF; width: 13rem; height: 2.51rem;" id="tujuan">
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="row justify-content-center">
+                                                <div class="col-2 text-center align-self-center">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col align-self-start text-start">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p>Bali</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col" style="margin-top: -20px;">
+                                                            <p>Indonesia</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="row justify-content-center">
+                                                <div class="col-2 text-center align-self-center">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col align-self-start text-start">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p>Seminyak</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col" style="margin-top: -20px;">
+                                                            <p>Bali, Indonesia</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="row justify-content-center">
+                                                <div class="col-2 text-center align-self-center">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col align-self-start text-start">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p>Kuta</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col" style="margin-top: -20px;">
+                                                            <p>Bali, Indonesia</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="row justify-content-center">
+                                                <div class="col-2 text-center align-self-center">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col align-self-start text-start">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p>Ubud</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col" style="margin-top: -20px;">
+                                                            <p>Bali, Indonesia</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mx-3" style="border-radius: .3rem; background-color: #DDE3EF;">

@@ -43,7 +43,9 @@
     border-radius: 15px;
 }
 
-.payment-box, .summary-box, .book-input-form {
+.payment-box,
+.summary-box,
+.book-input-form {
     border: 1px solid #d3d3d3;
     border-radius: 10px;
 }
@@ -58,7 +60,8 @@
 }
 
 
-.payment-confirmation-box, .booking-form {
+.payment-confirmation-box,
+.booking-form {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -84,11 +87,7 @@
 }
 
 .svg-index {
-    z-index: -99;
     position: absolute;
-}
-
-#section-gelombang {
     z-index: -99;
 }
 
@@ -139,7 +138,6 @@ h1 {
 #homepageSearch .container {
     border-radius: 1rem;
     padding: 3rem;
-    z-index: 99;
 }
 
 #penginapanSearch .container {
@@ -227,7 +225,7 @@ h1 {
 
 #penginapanSearch,
 #homepageSearch {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 #homepage-logo {
