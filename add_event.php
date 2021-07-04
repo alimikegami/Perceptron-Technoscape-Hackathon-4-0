@@ -1,5 +1,5 @@
 <?php 
-// session_start();
+session_start();
 require_once "functions.php";
 // if (!($_SESSION["login_pelanggan"] === true)) {
 //     header("Location: formlogin.php?syarat=login");
@@ -64,7 +64,7 @@ $accommodation_list = read($query_select_accommodation);
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Tambah Event!</title>
 </head>
 
 <body>

@@ -1,5 +1,5 @@
 <?php 
-// session_start();
+session_start();
 require_once "functions.php";
 // if (!($_SESSION["login_pelanggan"] === true)) {
 //     header("Location: formlogin.php?syarat=login");

@@ -1,6 +1,6 @@
-<!-- <?php 
-    session_start();
-?> -->
+<?php 
+    // session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +19,7 @@
 </head>
 
 <!-- Header Lama Start -->
-<body>
+<!-- <body>
     <nav id="header" class="navbar navbar-light">
         <div class="container d-flex align-items-center">
             <a class="navbar-brand" href="template/../">
@@ -33,11 +33,11 @@
                 <a href="formregistrasi.php" class="nav-link">Daftar</a>
             </div>
         </div>
-    </nav>
+    </nav> -->
 <!-- Header Lama End -->
 
 <!-- Header Baru Start -->
-<!-- <body>
+<body>
     <nav id="header" class="navbar navbar-light">
         <div class="container d-flex align-items-center">
             <a class="navbar-brand" href="template/../">
@@ -45,15 +45,34 @@
             </a>
             <?php if(isset($_SESSION["login_pelanggan"])): ?>
                 <div class="navbar-nav d-flex flex-row align-items-center">
-                    <a href="#" class="nav-link">Events</a>
+                    <!-- <a href="#" class="nav-link">Events</a> -->
                     <div></div>
-                    <a href="#" class="nav-link">Akun</a>
+                    <!-- <a href="#" class="nav-link">Akun</a> -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Akun
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Kelola Akun</a></li>
+                            <li><a class="dropdown-item" href="add_accommodation.php">Tambah Penginapan</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li> -->
+                    <div class="dropdown">
+                        <button class="dropbtn">Akun</button>
+                        <div class="dropdown-content">
+                            <a class="" href="#">Kelola Akun</a>
+                            <a class="" href="add_accommodation.php">Tambah Penginapan</a>
+                            <!-- <a href="#">Link 3</a> -->
+                        </div>
+                    </div>
+
                     <div></div>
-                    <a href="#" class="nav-link">Keluar</a>
+                    <a href="logout.php" class="nav-link">Keluar</a>
                 </div>
             <?php else: ?>
                 <div class="navbar-nav d-flex flex-row align-items-center">
-                    <a href="#" class="nav-link">Events</a>
+                    <!-- <a href="#" class="nav-link">Events</a> -->
                     <div></div>
                     <a href="formlogin.php" class="nav-link">Masuk</a>
                     <div></div>
@@ -61,7 +80,7 @@
                 </div>
             <?php endif;?>
         </div>
-    </nav> -->
+    </nav>
 <!-- Header Baru End -->
 
     <!-- Navbar Sticky Top -->
