@@ -69,7 +69,6 @@ require_once "functions.php";
                         <button type="button" class="btn login-button" data-bs-toggle="modal" data-bs-target="#ulasModal">Ulas</button>
                     </div>
                 </div>
-
                 <div class="modal fade" id="ulasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
@@ -131,7 +130,7 @@ require_once "functions.php";
                     </div>
                     <div class="mt-3">
                         <label for="exampleInputEmail1" class="form-label">Jumlah Tamu</label>
-                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="number" min="1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="mt-3">
                         <button class="btn login-button" id="check-availability" type="button" onclick="checkAvailability(1, 1, '2021-06-01', '2021-06-02', 1)">Check Availability</button>
@@ -186,7 +185,14 @@ require_once "functions.php";
         <div class="row">
             <div class="col-md-8">
                 <hr>
-                <h3>Event</h3>
+                <div class="row">
+                    <div class="col">
+                        <h3>Event</h3>
+                    </div>
+                    <div class="col">
+                        <a href="add_event.php" class="btn btn-primary rounded-pill text-center" style="float:right;">Tambah Event</a>
+                    </div>
+                </div>
                 <div class="col mt-3">
                     <div class="row">
                         <div class="col-4">
