@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include 'template/header.php' ?>
+    <?php session_start(); include 'template/header.php' ?>
 
     <div class="row">
         <div class="col">

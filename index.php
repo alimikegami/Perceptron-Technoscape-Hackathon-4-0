@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include 'template/header.php' ?>
+<?php session_start(); include 'template/header.php'; ?>
 
 <!-- Content -->
 <section id="homepage-logo">

@@ -1,6 +1,6 @@
 <?php
 require_once "functions.php";
-
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ require_once "functions.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lihat Penginapan: </title>
+    <title>Lihat Penginapan </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
@@ -66,7 +66,9 @@ require_once "functions.php";
 
                 <div class="row mt-4">
                     <div class="col-3">
+                    <?php if(isset($_SESSION["login_pelanggan"])): ?>
                         <button type="button" class="btn login-button" data-bs-toggle="modal" data-bs-target="#ulasModal">Ulas</button>
+                    <?php endif;?>
                     </div>
                 </div>
                 <div class="modal fade" id="ulasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -190,7 +192,9 @@ require_once "functions.php";
                         <h3>Event</h3>
                     </div>
                     <div class="col">
+                    <?php if(isset($_SESSION["login_pelanggan"])): ?>
                         <a href="add_event.php" class="btn btn-primary rounded-pill text-center" style="float:right;">Tambah Event</a>
+                    <?php endif;?>
                     </div>
                 </div>
                 <div class="col mt-3">

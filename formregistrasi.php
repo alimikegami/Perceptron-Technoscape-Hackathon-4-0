@@ -28,7 +28,7 @@ if (isset($_POST["submit-register"])) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Registrasi | Staycay</title>
 </head>
 
 <body>
@@ -79,7 +79,7 @@ if (isset($_POST["submit-register"])) {
                 <form method="POST">
                     <div class="mb-3">
                         <label for="exampleInputName" class="form-label">Nama</label>
-                        <input type="text" class="form-control" name="name-register" id="exampleInputName" aria-describedby="emailHelp" placeholder="Email" required>
+                        <input type="text" class="form-control" name="name-register" id="exampleInputName" aria-describedby="emailHelp" placeholder="Nama Lengkap" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Alamat Email</label>
