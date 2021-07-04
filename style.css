@@ -2,6 +2,7 @@
 .buat-akun-btn {
     width: 100%;
     background-color: #233049;
+    border-radius: 20px;
     color: white;
 }
 
@@ -22,6 +23,30 @@
     ;
     left: 0;
     z-index: -99;
+}
+.car-image {
+    border-radius: 15px;
+}
+
+.book-input-form {
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+.booking-form {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.create-event {
+    background-color: #233049;
+    color: white;
+    width: 15rem;
+}
+
+.create-event:hover {
+    color: lightgrey;
 }
 
 .svg-all-penginapan {
@@ -75,6 +100,7 @@ h1 {
 }
 
 /* Content */
+
 
 #homepageSearch,
 #penginapanSearch .container {
