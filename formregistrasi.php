@@ -1,20 +1,21 @@
-<?php 
+<?php
 session_start();
 require_once "functions.php";
 $empty = 0;
 $register = 0;
-if(isset($_POST["submit-register"])){
+if (isset($_POST["submit-register"])) {
     if (ctype_space($_POST["name-register"]) || ctype_space($_POST["email-register"]) || ctype_space($_POST["phone-number-register"]) || ctype_space($_POST["password-register"] || ctype_space($_POST["konfirmasi-password"]))) {
         $empty = 1;
-      } else {
+    } else {
         $register = register_user($_POST);
-      }
+    }
 }
 ?>
 
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,48 +29,49 @@ if(isset($_POST["submit-register"])){
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <?php include 'template/header.php' ?>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#233049" fill-opacity="1" d="M0,32L60,69.3C120,107,240,181,360,186.7C480,192,600,128,720,106.7C840,85,960,107,1080,144C1200,181,1320,235,1380,261.3L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
     </svg>
     <div class="container">
         <div class="row justify-content-center">
-            <?php if($empty == 1): ?>
+            <?php if ($empty == 1) : ?>
                 <div class="col-md-4 mt-4 alert alert-danger alert-dismissible fade show" role="alert">
-                        Lengkapi seluruh field dengan benar!
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    Lengkapi seluruh field dengan benar!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php endif;?>
+            <?php endif; ?>
 
-            <?php if($register == 1): ?>
+            <?php if ($register == 1) : ?>
                 <div class="col-md-4 mt-4 alert alert-danger alert-dismissible fade show" role="alert">
-                        Password tidak sesuai!
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    Password tidak sesuai!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php endif;?>
+            <?php endif; ?>
 
-            <?php if($register == 2): ?>
+            <?php if ($register == 2) : ?>
                 <div class="col-md-4 mt-4 alert alert-danger alert-dismissible fade show" role="alert">
-                        Email telah digunakan!
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    Email telah digunakan!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php endif;?>
-            
-            <?php if($register == 3): ?>
+            <?php endif; ?>
+
+            <?php if ($register == 3) : ?>
                 <div class="col-md-4 mt-4 alert alert-success alert-dismissible fade show" role="alert">
-                        Selamat, akun anda berhasil dibuat!
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    Selamat, akun anda berhasil dibuat!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php endif;?>
+            <?php endif; ?>
 
-            <?php if($register == 4): ?>
+            <?php if ($register == 4) : ?>
                 <div class="col-md-4 mt-4 alert alert-danger alert-dismissible fade show" role="alert">
-                        Terjadi kesalahan pada query!
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    Terjadi kesalahan pada query!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php endif;?>
+            <?php endif; ?>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-4 login-form mt-5 pb-5 px-4">
@@ -108,27 +110,12 @@ if(isset($_POST["submit-register"])){
         function show_hide_password() {
             var btn = document.getElementById("pwd")
             if (btn.type == "password") {
-                btn.type="text"; 
+                btn.type = "text";
             } else {
-                btn.type="password"; 
+                btn.type = "password";
             }
 
         }
     </script>
 
-
-
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
-</html>
+    <?php include 'template/footer.php'; ?>
