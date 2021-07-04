@@ -1,4 +1,4 @@
-.beranda-btn {
+.selengkapnya, .back-btn, .beranda-btn {
     background-color: #233049;
     border-radius: 20px;
     color: white;
@@ -12,8 +12,7 @@
     color: white;
 }
 
-.beranda-btn:hover,
-.login-button:hover,
+.selengkapnya:hover, .back-btn:hover, .beranda-btn:hover, .login-button:hover,
 .buat-akun-btn:hover {
     color: lightgrey;
 }
@@ -98,7 +97,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.event-form {
+.event-box, .event-form {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -134,6 +133,7 @@ h1 {
 }
 
 /* Content */
+
 
 #homepageSearch .container {
     border-radius: 1rem;
