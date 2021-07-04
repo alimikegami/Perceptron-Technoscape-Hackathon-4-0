@@ -19,7 +19,7 @@
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" width="161.1134" height="60">
             </a>
-            <div class="navbar-nav d-flex flex-row align-items-end">
+            <div class="navbar-nav d-flex flex-row align-items-center">
                 <a href="#" class="nav-link">Events</a>
                 <div></div>
                 <a href="#" class="nav-link">Masuk</a>
