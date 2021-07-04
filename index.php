@@ -143,7 +143,7 @@
                         <input type="text" placeholder="1 room, 2 guests" style="display: inline; padding-left: .5rem; border: 0; background-color: #DDE3EF; height: 1.34rem;" id="guest-form">
                     </div>
                 </div>
-                <input type="button" value="Cari" class="py-2 px-4" style="border-radius: 2rem; background-color: #233049; color: #9CADD0; font-size: 1.2rem;">
+                <a href="allPenginapan.php" class="btn py-2 px-5">Cari</a>
             </form>
         </div>
     </div>
@@ -165,7 +165,7 @@
                     <img src="img/bbq.jpg" class="d-block w-50" alt="">
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>New Year's Eve BBQ Party!</h5>
+                    <h2>New Year's Eve BBQ Party!</h2>
                     <p>Enjoy your new year at our glamming!</p>
                 </div>
             </div>
@@ -174,17 +174,17 @@
                     <img src="img/firecamp.jpg" class="d-block w-50" alt="">
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Campfire Night</h5>
+                    <h2>Campfire Night</h2>
                     <p>Enjoy your calm and warming night at out glamping!</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="carousel-img">
-                    <img src="img/hotel (3).jpg" class="d-block w-50" alt="">
+                    <img src="img/glamping.jpg" class="d-block w-50 img-fluid" alt="">
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h2>Campfire Night</h2>
+                    <p>Enjoy your calm and warming night at out glamping!</p>
                 </div>
             </div>
         </div>

@@ -1,12 +1,3 @@
-<?php
-include 'functions.php';
-
-if (isset($_POST["submit"])) {
-    $filter = filterPencarian($_POST);
-}
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
