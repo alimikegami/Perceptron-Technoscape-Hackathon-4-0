@@ -27,10 +27,7 @@ require_once "functions.php";
     <div class="container booking-form px-4">
         <div class="row justify-content-center mt-3 py-4">
             <div class="col-md-8">
-                <?php 
-                $query = "SELECT * FROM accommodation;";
-                $record = read($query);
-                ?>
+
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -57,14 +54,14 @@ require_once "functions.php";
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <h1 class="mt-4"><?= $record[0]["accommodation_name"] ?></h1>
-                <p><?= $record[0]["accommodation_street_address"] ?></p>
+                <h1 class="mt-4">Glamping Malang Asri</h1>
+                <p>Jl. Raya Tawangargo No.1, Sisir, Kec. Batu, Kota Batu, Jawa Timur 65314</p>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
             </div>
             <div class="col book-input-form">
-                <h2 class="mt-3">Rp<?= $record[0]["accommodation_price_per_night"] ?>/Malam</h2>
+                <h2 class="mt-3">Rp200.000,00/Malam</h2>
                 <form action="">                
                     <div class="row mt-3">
                         <div class="col-md-6">
@@ -86,32 +83,32 @@ require_once "functions.php";
                             <div class="col">
                                 <span id="left"></span>
                             </div>
-                            <div class="col">
+                            <div class="col text-end">
                                 <span id="right"></span>
                             </div>
                         </div>
                         <div class="row mt-3" id="disinf" hidden>
-                            <div class="col">
+                            <div class="col text-start">
                                 <span id="left-disinf"></span>
                             </div>
-                            <div class="col">
+                            <div class="col text-end">
                                 <span id="right-disinf"></span>
                             </div>
                         </div>
                         <div class="row mt-3" id="service" hidden>
-                            <div class="col">
+                            <div class="col text-start">
                                 <span id="left-service"></span>
                             </div>
-                            <div class="col">
+                            <div class="col text-end">
                                 <span id="right-service"></span>
                             </div>
                         </div>
                         <hr id="horizontal-line" hidden>
                         <div class="row mt-3" id="total" hidden>
-                            <div class="col">
+                            <div class="col text-start">
                                 <span id="left-total"></span>
                             </div>
-                            <div class="col">
+                            <div class="col text-end">
                                 <span id="right-total"></span>
                             </div>
                         </div>
@@ -177,18 +174,18 @@ require_once "functions.php";
                 $('#price').removeAttr('hidden');
                 $("#check-availability").attr("hidden",true);
                 $('#book').removeAttr('hidden');
-                $("#left").text("1 Malam x Rp20000");
-                $("#right").text("Rp20000");
+                $("#left").text("1 Malam x Rp20.000,00");
+                $("#right").text("Rp20.000,00");
                 $('#disinf').removeAttr('hidden');
                 $("#left-disinf").text("Sterilisasi");
-                $("#right-disinf").text("Rp200000");
+                $("#right-disinf").text("Rp200.000,00");
                 $('#service').removeAttr('hidden');
                 $("#left-service").text("Service");
-                $("#right-service").text("Rp200000");
+                $("#right-service").text("Rp200.000,00");
                 $('#horizontal-line').removeAttr('hidden');
                 $('#total').removeAttr('hidden');
                 $("#left-total").text("total");
-                $("#right-total").text("Rp200000");
+                $("#right-total").text("Rp200.000,00");
             }
         });
     }
