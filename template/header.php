@@ -1,3 +1,7 @@
+<!-- <?php 
+    session_start();
+?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,21 +17,51 @@
     <link rel="stylesheet" href="jquery.css?<?= filemtime('jquery.css'); ?>">
 </head>
 
+<!-- Header Lama Start -->
 <body>
     <nav id="header" class="navbar navbar-light">
         <div class="container d-flex align-items-center">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="template/../">
                 <img src="img/logo.png" alt="" width="161.1134" height="60">
             </a>
             <div class="navbar-nav d-flex flex-row align-items-center">
                 <a href="#" class="nav-link">Events</a>
                 <div></div>
-                <a href="#" class="nav-link">Masuk</a>
+                <a href="formlogin.php" class="nav-link">Masuk</a>
                 <div></div>
-                <a href="#" class="nav-link">Daftar</a>
+                <a href="formregistrasi.php" class="nav-link">Daftar</a>
             </div>
         </div>
     </nav>
+<!-- Header Lama End -->
+
+<!-- Header Baru Start -->
+<!-- <body>
+    <nav id="header" class="navbar navbar-light">
+        <div class="container d-flex align-items-center">
+            <a class="navbar-brand" href="template/../">
+                <img src="img/logo.png" alt="" width="161.1134" height="60">
+            </a>
+            <?php if(isset($_SESSION["login_pelanggan"])): ?>
+                <div class="navbar-nav d-flex flex-row align-items-center">
+                    <a href="#" class="nav-link">Events</a>
+                    <div></div>
+                    <a href="#" class="nav-link">Akun</a>
+                    <div></div>
+                    <a href="#" class="nav-link">Keluar</a>
+                </div>
+            <?php else: ?>
+                <div class="navbar-nav d-flex flex-row align-items-center">
+                    <a href="#" class="nav-link">Events</a>
+                    <div></div>
+                    <a href="formlogin.php" class="nav-link">Masuk</a>
+                    <div></div>
+                    <a href="formregistrasi.php" class="nav-link">Daftar</a>
+                </div>
+            <?php endif;?>
+        </div>
+    </nav> -->
+<!-- Header Baru End -->
 
     <!-- Navbar Sticky Top -->
     <!-- <nav class="navbar sticky-top navbar-light bg-light">
