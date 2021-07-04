@@ -1,7 +1,51 @@
-<?php
-session_start();
+<?php 
+// session_start();
 require_once "functions.php";
+// if (!($_SESSION["login_pelanggan"] === true)) {
+//     header("Location: formlogin.php?syarat=login");
+//     exit();
+// }
 
+$empty = 0;
+$event = 2;
+// $query_select_accommodation = "SELECT * FROM accommodation WHERE user_id=" . $_SESSION["id_akun"];
+$query_select_accommodation = "SELECT * FROM accommodation WHERE user_id=1";
+$accommodation_list = read($query_select_accommodation);
+
+// if (isset($_POST["new_event"])) {
+//     if (ctype_space($_POST["id_penginapan"]) || ctype_space($_POST["event_nama"]) || ctype_space($_POST["event_deskripsi"]) || ctype_space($_POST["event_mulai"]) || ctype_space($_POST["event_berakhir"])) {
+//         $empty = 1;
+//     } 
+    
+//     else {
+//         $date1 = strtotime(date_create($_POST["event_mulai"]));
+//         $date2 = strtotime(date_create($_POST["event_berakhir"]));
+
+//         $secs = $date2 - $date1; 
+//         $days = $secs / 86400;
+
+//         // $diff = (array) date_diff(date_create($_POST["event_mulai"]), date_create($_POST["event_berakhir"]));
+//         if ($days >= '0') {
+//             $ev_venue = $_POST["id_penginapan"];
+//             $ev_host = $_SESSION["id_akun"];
+//             $ev_event = $_POST["event_nama"];
+//             $ev_desc = $_POST["event_deskripsi"];
+//             $ev_start = $_POST["event_mulai"];
+//             $ev_end = $_POST["event_berakhir"];
+//             $event = create_event($ev_venue, $ev_host, $ev_event, $ev_desc, $ev_start, $ev_end);
+            
+//             if ($event == 0) {
+                
+//             }
+//             else {
+    
+//             }
+//         }
+//         else {
+//             header("Location: add_event.php?error=date");
+//         }
+//     }
+// }
 ?>
 
 <!doctype html>
