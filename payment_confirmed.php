@@ -65,7 +65,7 @@ require_once "functions.php";
                 </ol>
             </div class="row">
                 <div class="col text-center">
-                    <a href="" class="btn beranda-btn mt-3 mb-3">Beranda</a>
+                    <a href="index.php" class="btn beranda-btn mt-3 mb-3">Beranda</a>
                 </div>
             </div>
             

@@ -33,7 +33,7 @@ require_once "functions.php";
                     <span>Transfer Bank</span>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-2">
                             <div class="col-md-3">
                                 <img src="Img/bca.png" alt="" height="25">
@@ -46,7 +46,7 @@ require_once "functions.php";
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-2">
                             <div class="col-md-3">
                                 <img src="Img/bni.png" alt="" height="25">
@@ -59,7 +59,7 @@ require_once "functions.php";
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-2">
                             <div class="col-md-3">
                                 <img src="Img/mandiri.png" alt="" height="25">
@@ -77,7 +77,7 @@ require_once "functions.php";
                     <span>E-Money</span>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-3">
                             <div class="col-md-3">
                                 <img src="Img/gopay.png" alt="" height="25">
@@ -90,7 +90,7 @@ require_once "functions.php";
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-3">
                             <div class="col-md-3">
                                 <img src="Img/ovo.png" alt="" height="25">
@@ -103,7 +103,7 @@ require_once "functions.php";
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-3">
                             <div class="col-md-3">
                                 <img src="Img/logo_dana_blue.svg" alt="" height="25">
@@ -121,7 +121,7 @@ require_once "functions.php";
                     <span>Gerai Terdekat</span>
                 </div>
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-3">
                             <div class="col-md-3">
                                 <img src="Img/indomaret.png" alt="" height="25">
@@ -134,7 +134,7 @@ require_once "functions.php";
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-3">
                             <div class="col-md-3">
                                 <img src="Img/alfamart.png" alt="" height="25">
@@ -147,7 +147,7 @@ require_once "functions.php";
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="payment_confirmed.php" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="row py-3">
                             <div class="col-md-3">
                                 <img src="Img/alfamidi.png" alt="" height="25">

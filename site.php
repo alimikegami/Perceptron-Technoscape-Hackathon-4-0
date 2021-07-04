@@ -114,7 +114,7 @@ require_once "functions.php";
                                 <span id="right-total"></span>
                             </div>
                         </div>
-                        <button class="btn login-button mt-5" id="book" type="submit" hidden>Book Now</button>
+                        <a class="btn login-button mt-5" id="book" type="button" href="payment_page.php" hidden>Book Now</button>
                     </div>
                 </form>
             </div>
@@ -209,7 +209,7 @@ require_once "functions.php";
                 $("#right-service").text("Rp200.000,00");
                 $('#horizontal-line').removeAttr('hidden');
                 $('#total').removeAttr('hidden');
-                $("#left-total").text("total");
+                $("#left-total").text("Total");
                 $("#right-total").text("Rp200.000,00");
             }
         });

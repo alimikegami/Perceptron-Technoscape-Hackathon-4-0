@@ -151,7 +151,7 @@
 
 <section id="eventInfo" class="my-5">
     <div class="row text-center mb-5">
-        <h3>Event pada Penginapan</h3>
+        <h3>Event pada Akomodasi</h3>
     </div>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -162,20 +162,20 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="carousel-img">
-                    <img src="img/hotel (1).jpg" class="d-block w-50" alt="">
+                    <img src="img/bbq.jpg" class="d-block w-50" alt="">
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>New Year's Eve BBQ Party!</h5>
+                    <p>Enjoy your new year at our glamming!</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="carousel-img">
-                    <img src="img/hotel (2).jpg" class="d-block w-50" alt="">
+                    <img src="img/firecamp.jpg" class="d-block w-50" alt="">
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Campfire Night</h5>
+                    <p>Enjoy your calm and warming night at out glamping!</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -208,13 +208,13 @@
         <div class="d-block">
             <div class="d-flex">
                 <div class="me-5" style="width: 50%;">
-                    <h3 class="mb-4">Penginapan Terlaris</h3>
+                    <h3 class="mb-4">Akomodasi Terlaris</h3>
                     <div class="d-flex">
                         <div class="d-flex me-4">
                             <div class="d-inline p-3 shadow list-terlaris">
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Glamping Malang Asri</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -230,7 +230,7 @@
                                 <hr>
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Batur Campsite</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -246,7 +246,7 @@
                                 <hr>
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Villa Ayodya Canggu</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -262,7 +262,7 @@
                                 <hr>
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Glamping Bali Nusa</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -281,7 +281,7 @@
                             <div class="d-inline p-3 shadow list-terlaris">
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Baturiti Campsite</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -297,7 +297,7 @@
                                 <hr>
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Buyan Campsite</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -313,7 +313,7 @@
                                 <hr>
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Amed Glamping</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -329,7 +329,7 @@
                                 <hr>
                                 <div>
                                     <div class="d-flex justify-content-center text-center mx-3">
-                                        <h6>The Alea Hotel Seminyak</h6>
+                                        <h6>Villa Amara Canggu</h6>
                                     </div>
                                     <div class="col">
                                         <ion-icon name="star"></ion-icon>
@@ -347,17 +347,17 @@
                     </div>
                 </div>
                 <div style="width: 50%;">
-                    <h3 class="mb-4">Rekomendasi Penginapan</h3>
+                    <h3 class="mb-4">Rekomendasi Akomodasi</h3>
                     <div class="shadow p-3 list-rekomendasi">
                         <div class="d-block">
                             <div class="row">
                                 <div class="col-auto align-self-center">
-                                    <img src="img/hotel (1).jpg" alt="">
+                                    <img src="img/glamping.jpg" alt="">
                                 </div>
                                 <div class="col">
                                     <div class="row">
                                         <div class="col">
-                                            <h6>The Alea Hotel Seminyak</h6>
+                                            <h6>Glamping Malang Asri</h6>
                                         </div>
                                         <div class="col-auto">
                                             <ion-icon name="star"></ion-icon>
@@ -377,12 +377,12 @@
                             </div>
                             <div class="row my-2">
                                 <div class="col-auto align-self-center">
-                                    <img src="img/hotel (1).jpg" alt="">
+                                    <img src="img/glamping.jpg" alt="">
                                 </div>
                                 <div class="col">
                                     <div class="row">
                                         <div class="col">
-                                            <h6>The Alea Hotel Seminyak</h6>
+                                            <h6>Glamping Malang Asri</h6>
                                         </div>
                                         <div class="col-auto">
                                             <ion-icon name="star"></ion-icon>
@@ -402,12 +402,12 @@
                             </div>
                             <div class="row">
                                 <div class="col-auto align-self-center">
-                                    <img src="img/hotel (1).jpg" alt="">
+                                    <img src="img/glamping.jpg" alt="">
                                 </div>
                                 <div class="col">
                                     <div class="row">
                                         <div class="col">
-                                            <h6>The Alea Hotel Seminyak</h6>
+                                            <h6>Glamping Malang Asri</h6>
                                         </div>
                                         <div class="col-auto">
                                             <ion-icon name="star"></ion-icon>
@@ -445,7 +445,7 @@
         <div class="shadow px-3 py-5 reviews">
             <div class="row justify-content-center">
                 <div class="col-sm text-center">
-                    <h6>The Alea Hotel Seminyak</h6>
+                    <h6>Glamping Malang Asri</h6>
                     <div class="col-auto mb-4">
                         <ion-icon name="star"></ion-icon>
                         <ion-icon name="star"></ion-icon>
@@ -461,7 +461,7 @@
                     </div>
                 </div>
                 <div class="col-sm text-center">
-                    <h6>The Alea Hotel Seminyak</h6>
+                    <h6>Glamping Malang Asri</h6>
                     <div class="col-auto mb-4">
                         <ion-icon name="star"></ion-icon>
                         <ion-icon name="star"></ion-icon>
@@ -477,7 +477,7 @@
                     </div>
                 </div>
                 <div class="col-sm text-center">
-                    <h6>The Alea Hotel Seminyak</h6>
+                    <h6>Glamping Malang Asri</h6>
                     <div class="col-auto mb-4">
                         <ion-icon name="star"></ion-icon>
                         <ion-icon name="star"></ion-icon>
@@ -493,7 +493,7 @@
                     </div>
                 </div>
                 <div class="col-sm text-center">
-                    <h6>The Alea Hotel Seminyak</h6>
+                    <h6>Glamping Malang Asri</h6>
                     <div class="col-auto mb-4">
                         <ion-icon name="star"></ion-icon>
                         <ion-icon name="star"></ion-icon>
